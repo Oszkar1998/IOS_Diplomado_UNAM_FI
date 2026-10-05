@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DayWallpapersApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eIf-XY-jm4">
+                                <rect key="frame" x="16" y="118" width="361" height="666"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eIf-XY-jm4" secondAttribute="height" multiplier="361:666" id="Mu5-m7-brs"/>
+                                </constraints>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Xdp-b3-bpo">
+                                <rect key="frame" x="10" y="118" width="373" height="32"/>
+                                <segments>
+                                    <segment title="Morning"/>
+                                    <segment title="Afternoon"/>
+                                    <segment title="Night"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentL:" destination="BYZ-38-t0r" eventType="valueChanged" id="aUD-Pe-Kal"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="eIf-XY-jm4" secondAttribute="trailing" id="0Fr-0Q-bLb"/>
+                            <constraint firstItem="Xdp-b3-bpo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="6Tf-vH-W0Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xdp-b3-bpo" secondAttribute="trailing" constant="10" id="7IZ-u7-cdg"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="eIf-XY-jm4" secondAttribute="bottom" id="Bvn-iw-4wM"/>
+                            <constraint firstItem="Xdp-b3-bpo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="DfI-9M-DQE"/>
+                            <constraint firstItem="eIf-XY-jm4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ulZ-cX-ZkV"/>
+                            <constraint firstItem="eIf-XY-jm4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="yYJ-cA-Usq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageL" destination="eIf-XY-jm4" id="Q3o-It-8kY"/>
+                        <outlet property="segmentL" destination="Xdp-b3-bpo" id="HbL-x4-HBe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="82"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
