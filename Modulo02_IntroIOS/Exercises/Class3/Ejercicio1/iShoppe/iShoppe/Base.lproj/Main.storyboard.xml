@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iShoppe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="firstExcProduct" translatesAutoresizingMaskIntoConstraints="NO" id="BUw-lQ-YlW">
+                                <rect key="frame" x="116.66666666666669" y="134" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="2Ap-76-LF4"/>
+                                    <constraint firstAttribute="width" constant="160" id="ndd-kZ-kVq"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="uyy-Zp-0Ze">
+                                <rect key="frame" x="16" y="310" width="361" height="365.33333333333326"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xbos Series X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjK-Y5-ZdS">
+                                        <rect key="frame" x="96.333333333333329" y="0.0" width="168.33333333333337" height="33.666666666666664"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFm-id-IWs">
+                                        <rect key="frame" x="0.0" y="49.666666666666686" width="361" height="279.33333333333331"/>
+                                        <string key="text">La Xbox Series X es la consola más potente de Microsoft, diseñada para ofrecer juegos en resolución 4K nativa de hasta 120 FPS. Destaca por su procesador AMD de última generación, una GPU de 12 teraflops y un almacenamiento SSD de 1 TB que elimina prácticamente los tiempos de carga. Además, incluye un lector de discos Blu-ray 4K, soporte para miles de juegos de generaciones anteriores mediante su retrocompatibilidad y la función Quick Resume para cambiar de un juego a otro al instante.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12,999 MXN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5P-Cy-MrW">
+                                        <rect key="frame" x="124.66666666666666" y="345" width="111.66666666666666" height="20.333333333333314"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S80-u9-uWy">
+                                <rect key="frame" x="96.666666666666686" y="724" width="200" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="hs0-ft-j1v"/>
+                                    <constraint firstAttribute="height" constant="44" id="ibJ-5f-cKi"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="COMPRA">
+                                    <color key="baseBackgroundColor" name="Vibran Coral"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BUw-lQ-YlW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0uN-wN-pzZ"/>
+                            <constraint firstItem="BUw-lQ-YlW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4rh-yY-hgy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S80-u9-uWy" secondAttribute="bottom" constant="16" id="9Mw-lT-KBg"/>
+                            <constraint firstItem="BUw-lQ-YlW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="DTa-Tb-XTI"/>
+                            <constraint firstItem="uyy-Zp-0Ze" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HUd-UF-zrq"/>
+                            <constraint firstItem="uyy-Zp-0Ze" firstAttribute="top" secondItem="BUw-lQ-YlW" secondAttribute="bottom" constant="16" id="PPq-EE-KCZ"/>
+                            <constraint firstAttribute="trailing" secondItem="uyy-Zp-0Ze" secondAttribute="trailing" constant="16" id="WBL-1z-UXz"/>
+                            <constraint firstItem="uyy-Zp-0Ze" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XGL-jL-Z8j"/>
+                            <constraint firstItem="S80-u9-uWy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kdn-SV-GYX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13" y="82"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="firstExcProduct" width="273" height="143.66667175292969"/>
+        <namedColor name="Vibran Coral">
+            <color red="0.94901960784313721" green="0.3411764705882353" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
