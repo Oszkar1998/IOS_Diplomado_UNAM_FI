@@ -1,0 +1,1146 @@
+{
+  "sections": [
+    {
+      "id": "spells",
+      "title": "Hechizos",
+      "items": [
+        {
+          "id": "lumos",
+          "name": "Lumos",
+          "imageName": "magic_lumos",
+          "description": "Ilumina la punta de la varita. Permite inspeccionar pasillos y leer documentos en lugares oscuros.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Iluminación",
+          "difficulty": "basica",
+          "dangerLevel": "bajo",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Lumos",
+          "tags": [
+            "Encantamiento",
+            "Iluminación"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Ilumina la punta de la varita."
+            },
+            {
+              "label": "Observación",
+              "value": "Permite inspeccionar pasillos y leer documentos en lugares oscuros."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "accio",
+          "name": "Accio",
+          "imageName": "magic_accio",
+          "description": "Atrae un objeto hacia quien lo invoca. Es útil para recuperar herramientas, aunque un objeto protegido puede resistirse.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Convocación",
+          "difficulty": "intermedia",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Accio",
+          "tags": [
+            "Encantamiento",
+            "Convocación"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Atrae un objeto hacia quien lo invoca."
+            },
+            {
+              "label": "Observación",
+              "value": "Es útil para recuperar herramientas, aunque un objeto protegido puede resistirse."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "alohomora",
+          "name": "Alohomora",
+          "imageName": "magic_alohomora",
+          "description": "Abre cerraduras que no tienen protección suficiente. Las cerraduras con defensas mágicas pueden requerir otros recursos.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Acceso",
+          "difficulty": "basica",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Alohomora",
+          "tags": [
+            "Encantamiento",
+            "Acceso"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Abre cerraduras que no tienen protección suficiente."
+            },
+            {
+              "label": "Observación",
+              "value": "Las cerraduras con defensas mágicas pueden requerir otros recursos."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "expecto-patronum",
+          "name": "Expecto Patronum",
+          "imageName": "magic_expecto_patronum",
+          "description": "Conjura un Patronus que protege frente a dementores. Puede adoptar forma corpórea y exige una concentración considerable.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Defensa",
+          "difficulty": "avanzada",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Expecto Patronum",
+          "tags": [
+            "Encantamiento",
+            "Defensa"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Conjura un Patronus que protege frente a dementores."
+            },
+            {
+              "label": "Observación",
+              "value": "Puede adoptar forma corpórea y exige una concentración considerable."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "expelliarmus",
+          "name": "Expelliarmus",
+          "imageName": "magic_expelliarmus",
+          "description": "Desarma a un adversario. Permite reducir una amenaza sin recurrir a un ataque letal.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Defensa",
+          "difficulty": "intermedia",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Expelliarmus",
+          "tags": [
+            "Encantamiento",
+            "Defensa"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Desarma a un adversario."
+            },
+            {
+              "label": "Observación",
+              "value": "Permite reducir una amenaza sin recurrir a un ataque letal."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "protego",
+          "name": "Protego",
+          "imageName": "magic_protego",
+          "description": "Forma un escudo contra determinados ataques mágicos. Su protección tiene límites y no equivale a inmunidad ante toda maldición.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Defensa",
+          "difficulty": "intermedia",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Protego",
+          "tags": [
+            "Encantamiento",
+            "Defensa"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Forma un escudo contra determinados ataques mágicos."
+            },
+            {
+              "label": "Observación",
+              "value": "Su protección tiene límites y no equivale a inmunidad ante toda maldición."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "stupefy",
+          "name": "Desmaius (Stupefy)",
+          "imageName": "magic_stupefy",
+          "description": "Aturde a quien recibe el impacto. El archivo lo clasifica como recurso de combate e inmovilización temporal.",
+          "detailLabel": "Tipo",
+          "detailValue": "Hechizo aturdidor",
+          "category": "spells",
+          "subtype": "Hechizo aturdidor",
+          "usage": "Ataque",
+          "difficulty": "intermedia",
+          "dangerLevel": "alto",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Stupefy",
+          "tags": [
+            "Hechizo aturdidor",
+            "Ataque"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Aturde a quien recibe el impacto."
+            },
+            {
+              "label": "Observación",
+              "value": "El archivo lo clasifica como recurso de combate e inmovilización temporal."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "wingardium-leviosa",
+          "name": "Wingardium Leviosa",
+          "imageName": "magic_wingardium_leviosa",
+          "description": "Hace levitar objetos. El control de la trayectoria importa tanto como conseguir que el objeto se eleve.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Levitación",
+          "difficulty": "basica",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Wingardium Leviosa",
+          "tags": [
+            "Encantamiento",
+            "Levitación"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Hace levitar objetos."
+            },
+            {
+              "label": "Observación",
+              "value": "El control de la trayectoria importa tanto como conseguir que el objeto se eleve."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "petrificus-totalus",
+          "name": "Petrificus Totalus",
+          "imageName": "magic_petrificus_totalus",
+          "description": "Paraliza el cuerpo de la persona afectada. La inmovilización limita el movimiento sin convertir el cuerpo en piedra.",
+          "detailLabel": "Tipo",
+          "detailValue": "Maldición",
+          "category": "spells",
+          "subtype": "Maldición",
+          "usage": "Inmovilización",
+          "difficulty": "intermedia",
+          "dangerLevel": "alto",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Petrificus Totalus",
+          "tags": [
+            "Maldición",
+            "Inmovilización"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Paraliza el cuerpo de la persona afectada."
+            },
+            {
+              "label": "Observación",
+              "value": "La inmovilización limita el movimiento sin convertir el cuerpo en piedra."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "riddikulus",
+          "name": "Riddikulus",
+          "imageName": "magic_riddikulus",
+          "description": "Da un aspecto cómico a un boggart. Se relaciona con el manejo del miedo y la visualización de una escena divertida.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Defensa",
+          "difficulty": "intermedia",
+          "dangerLevel": "bajo",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Riddikulus",
+          "tags": [
+            "Encantamiento",
+            "Defensa"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Da un aspecto cómico a un boggart."
+            },
+            {
+              "label": "Observación",
+              "value": "Se relaciona con el manejo del miedo y la visualización de una escena divertida."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "reparo",
+          "name": "Reparo",
+          "imageName": "magic_reparo",
+          "description": "Recompone determinados objetos rotos. No debe interpretarse como una solución universal para daños mágicos complejos.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Reparación",
+          "difficulty": "basica",
+          "dangerLevel": "bajo",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Reparo",
+          "tags": [
+            "Encantamiento",
+            "Reparación"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Recompone determinados objetos rotos."
+            },
+            {
+              "label": "Observación",
+              "value": "No debe interpretarse como una solución universal para daños mágicos complejos."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "obliviate",
+          "name": "Obliviate",
+          "imageName": "magic_obliviate",
+          "description": "Borra recuerdos de la persona afectada. Una intervención incorrecta puede provocar daños importantes en la memoria.",
+          "detailLabel": "Tipo",
+          "detailValue": "Encantamiento",
+          "category": "spells",
+          "subtype": "Encantamiento",
+          "usage": "Memoria",
+          "difficulty": "avanzada",
+          "dangerLevel": "alto",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": "Obliviate",
+          "tags": [
+            "Encantamiento",
+            "Memoria"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Borra recuerdos de la persona afectada."
+            },
+            {
+              "label": "Observación",
+              "value": "Una intervención incorrecta puede provocar daños importantes en la memoria."
+            }
+          ],
+          "precautions": "Evaluar el entorno y el objetivo antes de usar este recurso en el escenario de práctica."
+        },
+        {
+          "id": "avada-kedavra",
+          "name": "Avada Kedavra",
+          "imageName": "magic_avada_kedavra",
+          "description": "Causa la muerte de la víctima. Integra el grupo de las tres Maldiciones Imperdonables.",
+          "detailLabel": "Tipo",
+          "detailValue": "Maldición imperdonable",
+          "category": "spells",
+          "subtype": "Maldición imperdonable",
+          "usage": "Ataque",
+          "difficulty": "avanzada",
+          "dangerLevel": "critico",
+          "isRestricted": true,
+          "isUnforgivable": true,
+          "isHorcrux": false,
+          "incantation": "Avada Kedavra",
+          "tags": [
+            "Maldición imperdonable",
+            "Ataque",
+            "Magia oscura"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Causa la muerte de la víctima."
+            },
+            {
+              "label": "Observación",
+              "value": "Integra el grupo de las tres Maldiciones Imperdonables."
+            }
+          ],
+          "precautions": "Registro de magia oscura. Consulta restringida en el escenario del ejercicio."
+        },
+        {
+          "id": "crucio",
+          "name": "Crucio",
+          "imageName": "magic_crucio",
+          "description": "Inflige un dolor extremo. Integra el grupo de las tres Maldiciones Imperdonables.",
+          "detailLabel": "Tipo",
+          "detailValue": "Maldición imperdonable",
+          "category": "spells",
+          "subtype": "Maldición imperdonable",
+          "usage": "Ataque",
+          "difficulty": "avanzada",
+          "dangerLevel": "critico",
+          "isRestricted": true,
+          "isUnforgivable": true,
+          "isHorcrux": false,
+          "incantation": "Crucio",
+          "tags": [
+            "Maldición imperdonable",
+            "Ataque",
+            "Magia oscura"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Inflige un dolor extremo."
+            },
+            {
+              "label": "Observación",
+              "value": "Integra el grupo de las tres Maldiciones Imperdonables."
+            }
+          ],
+          "precautions": "Registro de magia oscura. Consulta restringida en el escenario del ejercicio."
+        },
+        {
+          "id": "imperio",
+          "name": "Imperio",
+          "imageName": "magic_imperio",
+          "description": "Somete la voluntad de otra persona. Integra el grupo de las tres Maldiciones Imperdonables.",
+          "detailLabel": "Tipo",
+          "detailValue": "Maldición imperdonable",
+          "category": "spells",
+          "subtype": "Maldición imperdonable",
+          "usage": "Control",
+          "difficulty": "avanzada",
+          "dangerLevel": "critico",
+          "isRestricted": true,
+          "isUnforgivable": true,
+          "isHorcrux": false,
+          "incantation": "Imperio",
+          "tags": [
+            "Maldición imperdonable",
+            "Control",
+            "Magia oscura"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Somete la voluntad de otra persona."
+            },
+            {
+              "label": "Observación",
+              "value": "Integra el grupo de las tres Maldiciones Imperdonables."
+            }
+          ],
+          "precautions": "Registro de magia oscura. Consulta restringida en el escenario del ejercicio."
+        }
+      ]
+    },
+    {
+      "id": "potions",
+      "title": "Pociones",
+      "items": [
+        {
+          "id": "felix-felicis",
+          "name": "Felix Felicis",
+          "imageName": "magic_felix_felicis",
+          "description": "Favorece temporalmente la buena fortuna. Sus efectos no sustituyen el juicio y su abuso tiene consecuencias.",
+          "detailLabel": "Uso",
+          "detailValue": "Fortuna",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Fortuna",
+          "difficulty": "avanzada",
+          "dangerLevel": "alto",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Fortuna"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Favorece temporalmente la buena fortuna."
+            },
+            {
+              "label": "Observación",
+              "value": "Sus efectos no sustituyen el juicio y su abuso tiene consecuencias."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        },
+        {
+          "id": "polyjuice",
+          "name": "Poción Multijugos",
+          "imageName": "magic_polyjuice",
+          "description": "Permite asumir temporalmente la apariencia de otra persona. No es una transformación diseñada para adoptar formas animales.",
+          "detailLabel": "Uso",
+          "detailValue": "Transformación",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Transformación",
+          "difficulty": "avanzada",
+          "dangerLevel": "alto",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Transformación"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Permite asumir temporalmente la apariencia de otra persona."
+            },
+            {
+              "label": "Observación",
+              "value": "No es una transformación diseñada para adoptar formas animales."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        },
+        {
+          "id": "amortentia",
+          "name": "Amortentia",
+          "imageName": "magic_amortentia",
+          "description": "Genera una fuerte obsesión o atracción. Su efecto no equivale a amor auténtico.",
+          "detailLabel": "Uso",
+          "detailValue": "Influencia emocional",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Influencia emocional",
+          "difficulty": "avanzada",
+          "dangerLevel": "alto",
+          "isRestricted": true,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Influencia emocional"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Genera una fuerte obsesión o atracción."
+            },
+            {
+              "label": "Observación",
+              "value": "Su efecto no equivale a amor auténtico."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        },
+        {
+          "id": "wiggenweld",
+          "name": "Poción Wiggenweld",
+          "imageName": "magic_wiggenweld",
+          "description": "Preparación reparadora del mundo mágico. Su representación y alcance varían entre las obras y los videojuegos.",
+          "detailLabel": "Uso",
+          "detailValue": "Recuperación",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Recuperación",
+          "difficulty": "intermedia",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Recuperación"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Preparación reparadora del mundo mágico."
+            },
+            {
+              "label": "Observación",
+              "value": "Su representación y alcance varían entre las obras y los videojuegos."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        },
+        {
+          "id": "veritaserum",
+          "name": "Veritaserum",
+          "imageName": "magic_veritaserum",
+          "description": "Favorece que quien la bebe revele la verdad. El expediente la relaciona con la obtención de información y sus límites.",
+          "detailLabel": "Uso",
+          "detailValue": "Interrogación",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Interrogación",
+          "difficulty": "avanzada",
+          "dangerLevel": "alto",
+          "isRestricted": true,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Interrogación"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Favorece que quien la bebe revele la verdad."
+            },
+            {
+              "label": "Observación",
+              "value": "El expediente la relaciona con la obtención de información y sus límites."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        },
+        {
+          "id": "wolfsbane",
+          "name": "Poción Matalobos",
+          "imageName": "magic_wolfsbane",
+          "description": "Ayuda a conservar el control mental durante la transformación en hombre lobo. No elimina la licantropía ni impide la transformación.",
+          "detailLabel": "Uso",
+          "detailValue": "Licantropía",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Licantropía",
+          "difficulty": "avanzada",
+          "dangerLevel": "alto",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Licantropía"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Ayuda a conservar el control mental durante la transformación en hombre lobo."
+            },
+            {
+              "label": "Observación",
+              "value": "No elimina la licantropía ni impide la transformación."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        },
+        {
+          "id": "skele-gro",
+          "name": "Skele-Gro",
+          "imageName": "magic_skele_gro",
+          "description": "Permite regenerar huesos. La recuperación puede resultar lenta y dolorosa.",
+          "detailLabel": "Uso",
+          "detailValue": "Recuperación ósea",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Recuperación ósea",
+          "difficulty": "avanzada",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Recuperación ósea"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Permite regenerar huesos."
+            },
+            {
+              "label": "Observación",
+              "value": "La recuperación puede resultar lenta y dolorosa."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        },
+        {
+          "id": "pepperup",
+          "name": "Poción Pepperup",
+          "imageName": "magic_pepperup",
+          "description": "Se utiliza contra los resfriados en el mundo mágico. Puede producir vapor que sale por los oídos.",
+          "detailLabel": "Uso",
+          "detailValue": "Recuperación",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Recuperación",
+          "difficulty": "intermedia",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Recuperación"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Se utiliza contra los resfriados en el mundo mágico."
+            },
+            {
+              "label": "Observación",
+              "value": "Puede producir vapor que sale por los oídos."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        },
+        {
+          "id": "living-death",
+          "name": "Filtro de Muertos en Vida",
+          "imageName": "magic_living_death",
+          "description": "Provoca un sueño extraordinariamente profundo. Se distingue de un preparado para dormir de efecto más leve.",
+          "detailLabel": "Uso",
+          "detailValue": "Sueño",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Sueño",
+          "difficulty": "avanzada",
+          "dangerLevel": "alto",
+          "isRestricted": true,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Sueño"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Provoca un sueño extraordinariamente profundo."
+            },
+            {
+              "label": "Observación",
+              "value": "Se distingue de un preparado para dormir de efecto más leve."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        },
+        {
+          "id": "draught-of-peace",
+          "name": "Filtro de la Paz",
+          "imageName": "magic_draught_of_peace",
+          "description": "Calma la ansiedad y la agitación. La precisión de la preparación es importante para evitar efectos indeseados.",
+          "detailLabel": "Uso",
+          "detailValue": "Calma",
+          "category": "potions",
+          "subtype": "Poción",
+          "usage": "Calma",
+          "difficulty": "avanzada",
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Poción",
+            "Calma"
+          ],
+          "facts": [
+            {
+              "label": "Efecto",
+              "value": "Calma la ansiedad y la agitación."
+            },
+            {
+              "label": "Observación",
+              "value": "La precisión de la preparación es importante para evitar efectos indeseados."
+            }
+          ],
+          "precautions": "Clasificación de un preparado ficticio. En el ejercicio, el expediente debe registrar su identificación antes de autorizar su uso."
+        }
+      ]
+    },
+    {
+      "id": "objects",
+      "title": "Objetos misteriosos",
+      "items": [
+        {
+          "id": "marauders-map",
+          "name": "Mapa del Merodeador",
+          "imageName": "magic_marauders_map",
+          "description": "Muestra espacios de Hogwarts y la ubicación de personas. Permite consultar movimientos dentro del castillo.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Mapa encantado",
+          "category": "objects",
+          "subtype": "Mapa encantado",
+          "usage": "Exploración",
+          "difficulty": null,
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Mapa encantado",
+            "Exploración"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Muestra espacios de Hogwarts y la ubicación de personas."
+            },
+            {
+              "label": "Observación",
+              "value": "Permite consultar movimientos dentro del castillo."
+            }
+          ],
+          "precautions": "Registrar la procedencia y el estado de la pieza en su expediente."
+        },
+        {
+          "id": "pensieve",
+          "name": "Pensadero",
+          "imageName": "magic_pensieve",
+          "description": "Permite observar recuerdos depositados en su interior. El contexto y la procedencia del recuerdo importan para interpretarlo.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Instrumento de recuerdos",
+          "category": "objects",
+          "subtype": "Instrumento de recuerdos",
+          "usage": "Memoria",
+          "difficulty": null,
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Instrumento de recuerdos",
+            "Memoria"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Permite observar recuerdos depositados en su interior."
+            },
+            {
+              "label": "Observación",
+              "value": "El contexto y la procedencia del recuerdo importan para interpretarlo."
+            }
+          ],
+          "precautions": "Registrar la procedencia y el estado de la pieza en su expediente."
+        },
+        {
+          "id": "invisibility-cloak",
+          "name": "Capa de invisibilidad",
+          "imageName": "magic_invisibility_cloak",
+          "description": "Oculta de la vista a quien se cubre con ella. La capa de Harry se diferencia de otras prendas de invisibilidad.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Reliquia de la Muerte",
+          "category": "objects",
+          "subtype": "Reliquia de la Muerte",
+          "usage": "Sigilo",
+          "difficulty": null,
+          "dangerLevel": "medio",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Reliquia de la Muerte",
+            "Sigilo"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Oculta de la vista a quien se cubre con ella."
+            },
+            {
+              "label": "Observación",
+              "value": "La capa de Harry se diferencia de otras prendas de invisibilidad."
+            }
+          ],
+          "precautions": "Registrar la procedencia y el estado de la pieza en su expediente."
+        },
+        {
+          "id": "time-turner",
+          "name": "Giratiempo",
+          "imageName": "magic_time_turner",
+          "description": "Permite realizar desplazamientos temporales. El archivo lo clasifica como una pieza de acceso restringido para el ejercicio.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Artefacto temporal",
+          "category": "objects",
+          "subtype": "Artefacto temporal",
+          "usage": "Tiempo",
+          "difficulty": null,
+          "dangerLevel": "critico",
+          "isRestricted": true,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Artefacto temporal",
+            "Tiempo"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Permite realizar desplazamientos temporales."
+            },
+            {
+              "label": "Observación",
+              "value": "El archivo lo clasifica como una pieza de acceso restringido para el ejercicio."
+            }
+          ],
+          "precautions": "Pieza de alto riesgo. En el escenario del ejercicio, los investigadores deben aislarla y registrar su hallazgo."
+        },
+        {
+          "id": "sorting-hat",
+          "name": "Sombrero Seleccionador",
+          "imageName": "magic_sorting_hat",
+          "description": "Asigna a los estudiantes a una casa de Hogwarts. Puede conversar con quien lo lleva durante la selección.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Objeto consciente",
+          "category": "objects",
+          "subtype": "Objeto consciente",
+          "usage": "Selección",
+          "difficulty": null,
+          "dangerLevel": "bajo",
+          "isRestricted": false,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Objeto consciente",
+            "Selección"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Asigna a los estudiantes a una casa de Hogwarts."
+            },
+            {
+              "label": "Observación",
+              "value": "Puede conversar con quien lo lleva durante la selección."
+            }
+          ],
+          "precautions": "Registrar la procedencia y el estado de la pieza en su expediente."
+        },
+        {
+          "id": "riddles-diary",
+          "name": "Diario de Tom Riddle",
+          "imageName": "magic_riddles_diary",
+          "description": "Diario que alberga un fragmento del alma de Voldemort. Puede interactuar con quien escribe en sus páginas.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Horrocrux",
+          "category": "objects",
+          "subtype": "Horrocrux",
+          "usage": "Magia oscura",
+          "difficulty": null,
+          "dangerLevel": "critico",
+          "isRestricted": true,
+          "isUnforgivable": false,
+          "isHorcrux": true,
+          "incantation": null,
+          "tags": [
+            "Horrocrux",
+            "Magia oscura"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Diario que alberga un fragmento del alma de Voldemort."
+            },
+            {
+              "label": "Observación",
+              "value": "Puede interactuar con quien escribe en sus páginas."
+            }
+          ],
+          "precautions": "Pieza de alto riesgo. En el escenario del ejercicio, los investigadores deben aislarla y registrar su hallazgo."
+        },
+        {
+          "id": "slytherins-locket",
+          "name": "Guardapelo de Slytherin",
+          "imageName": "magic_slytherins_locket",
+          "description": "Medallón de Salazar Slytherin convertido en horrocrux. Su influencia afecta emocionalmente a quienes lo llevan.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Horrocrux",
+          "category": "objects",
+          "subtype": "Horrocrux",
+          "usage": "Magia oscura",
+          "difficulty": null,
+          "dangerLevel": "critico",
+          "isRestricted": true,
+          "isUnforgivable": false,
+          "isHorcrux": true,
+          "incantation": null,
+          "tags": [
+            "Horrocrux",
+            "Magia oscura"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Medallón de Salazar Slytherin convertido en horrocrux."
+            },
+            {
+              "label": "Observación",
+              "value": "Su influencia afecta emocionalmente a quienes lo llevan."
+            }
+          ],
+          "precautions": "Pieza de alto riesgo. En el escenario del ejercicio, los investigadores deben aislarla y registrar su hallazgo."
+        },
+        {
+          "id": "hufflepuffs-cup",
+          "name": "Copa de Hufflepuff",
+          "imageName": "magic_hufflepuffs_cup",
+          "description": "Copa de Helga Hufflepuff utilizada como recipiente de un fragmento de alma. Forma parte del conjunto de horrocruxes vinculados con los fundadores.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Horrocrux",
+          "category": "objects",
+          "subtype": "Horrocrux",
+          "usage": "Magia oscura",
+          "difficulty": null,
+          "dangerLevel": "critico",
+          "isRestricted": true,
+          "isUnforgivable": false,
+          "isHorcrux": true,
+          "incantation": null,
+          "tags": [
+            "Horrocrux",
+            "Magia oscura"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Copa de Helga Hufflepuff utilizada como recipiente de un fragmento de alma."
+            },
+            {
+              "label": "Observación",
+              "value": "Forma parte del conjunto de horrocruxes vinculados con los fundadores."
+            }
+          ],
+          "precautions": "Pieza de alto riesgo. En el escenario del ejercicio, los investigadores deben aislarla y registrar su hallazgo."
+        },
+        {
+          "id": "ravenclaws-diadem",
+          "name": "Diadema de Ravenclaw",
+          "imageName": "magic_ravenclaws_diadem",
+          "description": "Diadema de Rowena Ravenclaw convertida en horrocrux. La pieza se asocia con la sabiduría y el legado de su propietaria original.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Horrocrux",
+          "category": "objects",
+          "subtype": "Horrocrux",
+          "usage": "Magia oscura",
+          "difficulty": null,
+          "dangerLevel": "critico",
+          "isRestricted": true,
+          "isUnforgivable": false,
+          "isHorcrux": true,
+          "incantation": null,
+          "tags": [
+            "Horrocrux",
+            "Magia oscura"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Diadema de Rowena Ravenclaw convertida en horrocrux."
+            },
+            {
+              "label": "Observación",
+              "value": "La pieza se asocia con la sabiduría y el legado de su propietaria original."
+            }
+          ],
+          "precautions": "Pieza de alto riesgo. En el escenario del ejercicio, los investigadores deben aislarla y registrar su hallazgo."
+        },
+        {
+          "id": "elder-wand",
+          "name": "Varita de Saúco",
+          "imageName": "magic_elder_wand",
+          "description": "Varita extraordinaria vinculada con las Reliquias de la Muerte. Su lealtad es un elemento central de su historia.",
+          "detailLabel": "Clasificación",
+          "detailValue": "Reliquia de la Muerte",
+          "category": "objects",
+          "subtype": "Reliquia de la Muerte",
+          "usage": "Canalización",
+          "difficulty": null,
+          "dangerLevel": "critico",
+          "isRestricted": true,
+          "isUnforgivable": false,
+          "isHorcrux": false,
+          "incantation": null,
+          "tags": [
+            "Reliquia de la Muerte",
+            "Canalización"
+          ],
+          "facts": [
+            {
+              "label": "Propiedad",
+              "value": "Varita extraordinaria vinculada con las Reliquias de la Muerte."
+            },
+            {
+              "label": "Observación",
+              "value": "Su lealtad es un elemento central de su historia."
+            }
+          ],
+          "precautions": "Pieza de alto riesgo. En el escenario del ejercicio, los investigadores deben aislarla y registrar su hallazgo."
+        }
+      ]
+    }
+  ]
+}
+
